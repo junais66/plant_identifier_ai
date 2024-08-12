@@ -4,10 +4,8 @@ import { useState } from 'react';
 import ImageUpload from './components/ImageUpload';
 import PlantInfo from './components/PlantInfo';
 import HowItWorks from './components/HowItWorks';
-import { Inter } from '@next/font/google';
 import './globals.css';
 
-const inter = Inter({ subsets: ['latin'] });
 
 export default function Home() {
   const [plantInfo, setPlantInfo] = useState<string | null>(null);
