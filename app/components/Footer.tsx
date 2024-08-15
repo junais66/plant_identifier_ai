@@ -55,19 +55,17 @@ const Footer: FC = () => {
             <div className="mt-8 flex flex-wrap gap-4">
           <a
             href="#"
-            className="bg-gray-600 text-white py-2 px-4 rounded-lg flex items-center gap-2 cursor-not-allowed"
-            aria-disabled="true"
+            className="bg-white text-black py-2 px-4 rounded-lg flex items-center gap-2 cursor-allowed"
           >
             <FaApple className="text-2xl"/>
-            <span>App Store - Coming Soon</span>
+            <span>App Store</span>
           </a>
           <a
             href="#"
-            className="bg-gray-600 text-white py-2 px-4 rounded-lg flex items-center gap-2 cursor-not-allowed"
-            aria-disabled="true"
+            className="bg-white text-black py-2 px-4 rounded-lg flex items-center gap-2 cursor-allowed"
           >
             <FaGooglePlay className="text-2xl" />
-            <span>Google Play - Coming Soon</span>
+            <span>Google Play</span>
           </a>
         </div>
     
